@@ -23,7 +23,7 @@
 @media (max-width: 480px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
-    width: 300px;
+    width: 450px;
     margin: 0 auto;
   }
 }
