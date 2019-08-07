@@ -20,6 +20,14 @@
   }
 }
 
+@media (max-width: 480px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 450px;
+    margin: 0 auto;
+  }
+}
+
 
 h1, h2, p {
   font-family: 'Red Hat Display', sans-serif;
