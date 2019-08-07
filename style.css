@@ -1,0 +1,104 @@
+@media (max-width: 900px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 750px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 650px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 600px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+
+h1, h2, p {
+  font-family: 'Red Hat Display', sans-serif;
+  letter-spacing: 0.08em;
+}
+
+p {
+  font-size: 15px;
+}
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #22A39F;
+}
+
+#landing {
+  position: relative;
+}
+
+#landing h1 {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  z-index: 10;
+  color: white;
+  font-size: 40px;
+  text-align: left;
+  align-self: auto;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+#landing img {
+  width: 100%;
+  margin: 0;
+  border: 0;
+}
+
+#profile {
+  text-align: centre;
+  background-color:#B1E5F2;
+  height: 650px;
+  position: relative;
+}
+
+#profile img {
+  border-radius: 50px;
+  height: 220px;
+  display: block;
+  margin: auto;
+  border: 7.5px solid white;
+  position: relative;
+  top: 50px;
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.2)
+}
+
+#profile #description {
+  display: block;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  width: 50%;
+  top: 55px;
+}
+
+#links {
+  background-color: black;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+#links p, a {
+  color: white;
+  display: block;
+  position: relative;
+  top: 35%;
+}
+
